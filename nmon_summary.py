@@ -158,8 +158,8 @@ def calculate_memory_metrics(mem_df, os_type):
 
 def main():
     """Main function for processing nmon files and saving results."""
-    folder_path = "./NMON_DC_Report/"  # Set your folder path here
-    output_file = "nmon_summary_DC_Per.xlsx"  # Set your output file name here
+    folder_path = "./NMON_Reports/"  # Set your folder path here
+    output_file = "nmon_summary.xlsx"  # Set your output file name here
     all_results = []
 
     for filename in os.listdir(folder_path):
